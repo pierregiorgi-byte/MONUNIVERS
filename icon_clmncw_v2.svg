@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a0a1e"/>
+      <stop offset="100%" stop-color="#1a0814"/>
+    </linearGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fce4ee"/>
+      <stop offset="50%" stop-color="#e8649a"/>
+      <stop offset="100%" stop-color="#c2185b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="45%">
+      <stop offset="0%" stop-color="#e8649a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#e8649a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="100" fill="none" stroke="#e8649a" stroke-width="2.5" opacity="0.6"/>
+  <ellipse cx="256" cy="235" rx="160" ry="160" fill="url(#glow)"/>
+  <!-- cercle décoratif pointillé -->
+  <circle cx="256" cy="235" r="110" fill="none" stroke="#e8649a" stroke-width="1" opacity="0.2" stroke-dasharray="5 4"/>
+  <circle cx="256" cy="235" r="130" fill="none" stroke="#f4b8d4" stroke-width="0.5" opacity="0.15"/>
+  <!-- grande étoile centrale -->
+  <polygon points="256,80 270,195 305,145 280,230 365,205 295,258 345,335 256,290 167,335 217,258 147,205 232,230 207,145 242,195" fill="url(#star)" opacity="0.95"/>
+  <!-- couronne au sommet -->
+  <polygon points="220,115 230,95 240,112 256,88 272,112 282,95 292,115" fill="#fce4ee" opacity="0.9"/>
+  <!-- petites étoiles -->
+  <polygon points="130,115 135,130 150,130 138,140 143,156 130,147 117,156 122,140 110,130 125,130" fill="#e8649a" opacity="0.7"/>
+  <polygon points="385,85 389,97 401,97 392,104 395,116 385,109 375,116 378,104 369,97 381,97" fill="#f4b8d4" opacity="0.8"/>
+  <polygon points="400,350 404,362 416,362 407,369 410,381 400,374 390,381 393,369 384,362 396,362" fill="#e8649a" opacity="0.5"/>
+  <!-- cercles déco -->
+  <circle cx="148" cy="190" r="3.5" fill="#f4b8d4" opacity="0.7"/>
+  <circle cx="375" cy="210" r="2.5" fill="#e8649a" opacity="0.6"/>
+  <circle cx="135" cy="380" r="2" fill="#f4b8d4" opacity="0.5"/>
+  <circle cx="400" cy="410" r="3" fill="#e8649a" opacity="0.5"/>
+  <!-- nom -->
+  <text x="256" y="415" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#fce4ee" letter-spacing="3">CLMNCW</text>
+  <text x="256" y="445" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="400" fill="#e8649a" letter-spacing="6">HABIT TRACKER</text>
+  <!-- badge rang -->
+  <rect x="208" y="460" width="96" height="26" rx="13" fill="#2a0a1e" stroke="#e8649a" stroke-width="1"/>
+  <text x="256" y="478" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#f4b8d4" letter-spacing="2">✦ Petite Étoile</text>
+</svg>
